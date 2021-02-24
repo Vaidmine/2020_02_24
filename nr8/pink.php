@@ -21,15 +21,14 @@ naršyklė būtų peradresuojama į pink.php puslapį.
 
 
 if (isset($_POST['postas'])) {
-    echo 'style="background-color: gold;"';
-    $redirect = header("Location:http://localhost/2020_02_24/nr8/rose.php");
+    header('Location:http://localhost/2020_02_24/nr8/rose.php');
 }
 
 ?>
  
     
-<form action="" method="postas">
-<button type="submit" name="postas"><p> GO TO ROSE </p></button>
+<form action="" method="post">
+<button type="text" name="postas"><p> GO TO ROSE </p></button>
 </form>
 
 </body>

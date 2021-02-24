@@ -39,12 +39,12 @@ _d($_GET);
 _d($_POST);
 ?>
 >
-<form action="" method="getas">
+<form action="" method="get">
 <button type="submit" name="getas"><p> GET METODAS - GREEN</p></button>
 </form>
 
 <br><br>
-<form action="" method="postas">
+<form action="" method="post">
 <button type="submit" name="postas"><p> POST METODAS - YELLOW </p></button>
 </form>
 

@@ -1,11 +1,10 @@
 /*
 Padarykite puslapį su dviem mygtukais. <br>
-Mygtukus įdėkite į dvi skairtingas formas- <br>
-vieną GET ir kitą POST.<br>
- Nenaudodami jokių konkrečių $_GET ar $_POST reikšmių, <br>
- o tik tikrindami pačius masyvus, <br>
- nuspalvinkite foną žaliai, kai paspaustas mygtukas iš GET formos <br> 
- ir geltonai - kai iš POST.
+Mygtukus įdėkite į dvi skairtingas formas- vieną GET ir kitą POST.<br>
+Nenaudodami jokių konkrečių $_GET ar $_POST reikšmių, <br>
+o tik tikrindami pačius masyvus, <br>
+nuspalvinkite foną žaliai, kai paspaustas mygtukas iš GET formos <br> 
+ir geltonai - kai iš POST.
 */ <br><br>
 
 <!DOCTYPE html>
@@ -17,31 +16,32 @@ vieną GET ir kitą POST.<br>
     <title>Document</title>
 
     <style>
-    a {
+   p {
         text-decoration: none;
-        font-size: 25px;
+        font-size: 20px;
     }
     </style>
 </head>
+
 
 <body
     
 <?php
 
 if (isset($_POST['postas'])) {
-    echo "yellow";
+    echo 'style="background-color: gold";';
 }
 if (isset($_GET['getas'])) {
-    echo "green";
+    echo 'style="background-color: seagreen";';
 }
 ?>
 >
 <form action="" method="getas">
-<button type="submit"><a href=">green="> GET METODAS</a></button>
+<button type="submit" name="getas"><p> GET METODAS GREEN</p></button>
 </form>
 
-<form action="" method="post" value="">
-<button type="submit"><a href=">yellow="> POST METODAS</a></button>
+<form action="" method="postas" value="">
+<button type="submit" name="postas"><p>  POST METODAS YELLOW </p></button>
 </form>
 
 

@@ -28,12 +28,15 @@ ir geltonai - kai iš POST.
     
 <?php
 
+
 if (isset($_POST['postas'])) {
     echo 'style="background-color: gold";';
 }
 if (isset($_GET['getas'])) {
     echo 'style="background-color: seagreen";';
 }
+_d($_GET);
+_d($_POST);
 ?>
 >
 <form action="" method="getas">
@@ -41,7 +44,7 @@ if (isset($_GET['getas'])) {
 </form>
 <br><br>
 <form action="" method="postas" value="">
-<button type="submit" name="postas"><p>  POST METODAS YELLOW </p></button>
+<button type="submit" name="postas"><p> POST METODAS YELLOW </p></button>
 </form>
 
 

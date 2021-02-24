@@ -1,6 +1,6 @@
 /*
 Padarykite puslapį su dviem mygtukais. <br>
-Mygtukus įdėkite į dvi skairtingas formas- vieną GET ir kitą POST.<br>
+Mygtukus įdėkite į dvi skirtingas formas - vieną GET ir kitą POST.<br>
 Nenaudodami jokių konkrečių $_GET ar $_POST reikšmių, <br>
 o tik tikrindami pačius masyvus, <br>
 nuspalvinkite foną žaliai, kai paspaustas mygtukas iš GET formos <br> 
@@ -13,7 +13,7 @@ ir geltonai - kai iš POST.
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>POST & GET</title>
 
     <style>
    p {
@@ -39,7 +39,7 @@ if (isset($_GET['getas'])) {
 <form action="" method="getas">
 <button type="submit" name="getas"><p> GET METODAS GREEN</p></button>
 </form>
-
+<br><br>
 <form action="" method="postas" value="">
 <button type="submit" name="postas"><p>  POST METODAS YELLOW </p></button>
 </form>

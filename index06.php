@@ -40,11 +40,12 @@ _d($_POST);
 ?>
 >
 <form action="" method="getas">
-<button type="submit" name="getas"><p> GET METODAS GREEN</p></button>
+<button type="submit" name="getas"><p> GET METODAS - GREEN</p></button>
 </form>
+
 <br><br>
-<form action="" method="postas" value="">
-<button type="submit" name="postas"><p> POST METODAS YELLOW </p></button>
+<form action="" method="postas">
+<button type="submit" name="postas"><p> POST METODAS - YELLOW </p></button>
 </form>
 
 

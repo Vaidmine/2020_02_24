@@ -18,4 +18,11 @@ http://localhost/2020_02_24/nr5/red.php
 
 NR6
 http://localhost/2020_02_24/index06.php
+
+NR7
+http://localhost/2020_02_24/index07.php
+
+NR8
+http://localhost/2020_02_24/nr8/pink.php
+http://localhost/2020_02_24/nr8/rose.php
  

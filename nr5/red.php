@@ -8,6 +8,7 @@ Padarykite taip, kad paspaudus ant  linko puslapis ne tiesiog persikrautų,  <br
 
 if (isset($_GET['yyyy'])) {
     header('Location: http://localhost/2020_02_24/nr5/blue.php');
+    die;
 }
 
 ?>

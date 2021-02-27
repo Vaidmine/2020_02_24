@@ -1,7 +1,7 @@
 <?php
 $b = #fff;
 
-if ($_SERVER['REQUEST_METHOD'] =='POST' ) {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
  $b = '#fee227';
 }
 else {

@@ -1,6 +1,6 @@
 <?php
 header('Location: http://localhost/2020_02_24/nr4/orange.php');
-
+die; // visada po peradresavimo DIE
 ?>
 
 

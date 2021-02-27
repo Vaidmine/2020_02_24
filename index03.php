@@ -7,10 +7,8 @@ ir ją išsiųsti mygtuku GET metodu formoje.
 <?php
 _d($_GET);
 if (isset($_GET['color'])) {
-    // $color = $GET['color'];
-    echo "style='background-color: #" . $_GET['color'] . ";'";
-} else {
-    echo "aaaaaa";
+    $color = $_GET['color'];
+    echo "style='background-color: #". $color.";'";
 }
 ?>
 
@@ -20,17 +18,18 @@ if (isset($_GET['color'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEB MECH UZD 3</title>
+    <title>UZD 3</title>
 </head>
 <body style='background-color:#<?= $color ?>;'
 
 >
 
-    <form action="" method="get">
-        <input type="text" name="color">
-        <button type="submit">SPAUSTI</button>
+    <form action="" method="get" style="display: flex; justify-content: center;">
+        <input type="text" name="color" value="">
+        <button type="submit">SPAUSTI/ PAKEISTI SPALVA</button>
 
 </form>
 </body>
 </html>
 
+ 

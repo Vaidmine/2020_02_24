@@ -2,7 +2,6 @@ NR1
 http://localhost/2020_02_24/index01.php
 
 NR2
-http://localhost/2020_02_24/index01.php
 http://localhost/2020_02_24/index02.php/?color=111111
 
 NR3

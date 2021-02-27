@@ -9,6 +9,7 @@ Padarykite taip, kad paspaudus ant  linko puslapis ne tiesiog persikrautų,  <br
 if (isset($_GET['xxxx'])) {
 
 header('Location: http://localhost/2020_02_24/nr5/red.php');
+die;
 }
 ?>
 

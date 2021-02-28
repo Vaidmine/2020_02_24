@@ -16,12 +16,14 @@ naršyklė būtų peradresuojama į pink.php puslapį.
     <title>PINK & ROSE - PINK</title>
 </head>
 <body style='background-color:pink;'>
+<!-- <body style="background-color: pink; display: flex; justify-content: center;"> -->
 
 <?php
 
 
 if (isset($_POST['postas'])) {
-    header('Location:http://localhost/2020_02_24/nr8/rose.php');
+    header('Location:http://localhost/2020_02_24/nr8/rose.php?noredirecting=1');
+    die;
 }
 
 ?>

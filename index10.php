@@ -4,6 +4,10 @@ mygtukas ir atsitiktinis kiekis (3-10) checkbox su raidėm A,B,C… <br>
 Padarykite taip, kad paspaudus mygtuką, <br>
 fono spalva pasikeistų į baltą, forma išnyktų ir atsirastų skaičius, <br>
 rodantis kiek buvo pažymėta checkboksų (ne kurie, o kiek). 
+Pakartokite 9 uždavinį. <br>
+Padarykite taip, kad atsirastų du skaičiai. <br>
+Vienas rodytų kiek buvo pažymėta, o kitas kiek iš vis buvo jų sugeneruota.
+
 */ <br><br>
 
 <?php

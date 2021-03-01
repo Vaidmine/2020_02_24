@@ -6,13 +6,7 @@ Formą nukreipkite, kad ji atsidarinėtų rose.php puslapyje. <br>
 Padarykite taip, kad surinkus naršyklėje tiesiogiai adresą į rose.php puslapį, <br> 
 naršyklė būtų peradresuojama į pink.php puslapį. 
 */
-<?php
-_d($_SERVER['REQUEST_METHOD']);
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    header('Location: http://localhost/2020_02_24/nr8/rose.php');
-die;
-}
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,5 +23,8 @@ die;
         <button type="submit">GO TO ROSE</button>
     </form>
 </body>
+
+// JEI BUTTON'as SUBMIT - tada metodas postas
+// visi kiti metodai yra GET
 
 </html>

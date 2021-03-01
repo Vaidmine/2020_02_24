@@ -9,11 +9,16 @@ puslapį.
 */
 <?php
     _d($_SERVER['REQUEST_METHOD']);
+
+    if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+        header('Location: http://localhost/2020_02_24/nr8/pink.php');
+    die;
+    }
     
-if ($_SERVER['REQUEST_METHOD'] == 'GET') {
-    header('Location: http://localhost/2020_02_24/nr8/pink.php');
-   die;
-}
+// if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+//     header('Location: http://localhost/2020_02_24/nr8/pink.php');
+//    die;
+// }
 ?>
 
 <!DOCTYPE html>
